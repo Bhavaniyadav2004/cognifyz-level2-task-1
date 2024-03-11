@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom styling for the cards */
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .card-text {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .card-img-top {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        /* Header styles */
+        .card-header {
+            background-color:rgb(216, 227, 230) ;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* Footer styles */
+        .card-footer {
+            background-color:rgb(216, 227, 230);
+            border-top: 1px solid rgb(233, 217, 217);
+            padding: 10px;
+            text-align: center;
+            .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:red; /* Default color */
+        }
+        
+        
+    </style>
+    <title> Collection</title>
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1 class="display-4">Discover mobile phones</h1>
+            <p class="lead">Embrace the future of mobility</p>
+        </div>
+    </header>
+   
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Samsung</div>
+                    <img src="1-p.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy A Series A14 5G Dual Sim </h5>
+                        <p class="card-text">Samsung offers a wide range of smartphones catering to various budgets and needs.
+                            Known for their vibrant displays, powerful cameras, and One UI software.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <!-- Add more cards here (up to 6) -->
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Redmi</div>
+                    <img src="2-a.jpg" class="card-img-top" alt="Beautiful Landscape">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi Note 13 Pro 5G (12GB RAM, 256GB, Midnight Black)</h5>
+                        <p class="card-text">Redmi, a sub-brand of Xiaomi, focuses on affordability without compromising on specs.
+                            Popular for its value-for-money smartphones.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Samsung</div>
+                    <img src="3-a.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy A Series A05s 4G Dual Sim </h5>
+                        <p class="card-text">Samsung offers a wide range of smartphones catering to various budgets and needs.
+                            Known for their vibrant displays, powerful cameras, and One UI software.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header"> iPhones</div>
+                    <img src="4-a.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple iPhone 14 (Blue, 128 Gb, 3279 Mah)</h5>
+                        <p class="card-text"> iPhones are synonymous with premium quality and ecosystem integration.
+                            Known for their sleek design, iOS operating system, and privacy features.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">OnePlus</div>
+                    <img src="5-A.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">OnePlus 12 5G Dual Sim Smartphone Snapdragon 8 Gen 3 </h5>
+                        <p class="card-text">OnePlus emphasizes flagship-level performance and clean software.
+                            Renowned for OxygenOS, fast charging, and high refresh rate displays.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Samsung</div>
+                    <img src="6-A.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">amsung Galaxy S Series S23 Ultra 5G Dual Sim </h5>
+                        <p class="card-text">Samsung offers a wide range of smartphones catering to various budgets and needs.
+                            Known for their vibrant displays, powerful cameras, and One UI software.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">OnePlus</div>
+                    <img src="7-A.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">OnePlus 12 5G Dual Sim Smartphone Snapdragon 8 Gen 3 </h5>
+                        <p class="card-text">OnePlus emphasizes flagship-level performance and clean software.
+                            Renowned for OxygenOS, fast charging, and high refresh rate displays.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Redmi</div>
+                    <img src="2-a.jpg" class="card-img-top" alt="Beautiful Landscape">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi Note 12 4G Dual Sim Smartphone (</h5>
+                        <p class="card-text">Redmi, a sub-brand of Xiaomi, focuses on affordability without compromising on specs.
+                            Popular for its value-for-money smartphones.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">iPhones</div>
+                    <img src="9-A.jpg" class="card-img-top" alt="Beautiful Landscape" style="height: 310px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple iPhone 14 (Blue, 128 Gb, 3279 Mah)</h5>
+                        <p class="card-text">iPhones are synonymous with premium quality and ecosystem integration.
+                            Known for their sleek design, iOS operating system, and privacy features.</p>
+                    </div>
+                    <div class="container">
+                    <div class="card-footer" class="button" onclick="changeColor()">Shop Now</div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
